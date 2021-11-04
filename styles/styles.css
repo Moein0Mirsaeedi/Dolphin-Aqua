@@ -17,6 +17,7 @@
 
 body {
   background-color: #cbf1f5;
+  height: 300vh;
 }
 
 .all-intro {
@@ -68,6 +69,7 @@ a:hover {
 
 .my-header {
   height: 100vh;
+  padding-top: 100px;
 }
 
 .my-text-header h1 {
@@ -88,4 +90,11 @@ a:hover {
   align-items: center;
   align-content: center;
   justify-content: center;
+  z-index: 100;
+}
+
+.carousel-caption h3 ,
+.carousel-caption p{
+  text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+  color: rgb(255, 255, 255);
 }
