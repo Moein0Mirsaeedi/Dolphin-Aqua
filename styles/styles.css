@@ -5,7 +5,11 @@
 
 body {
   background-color: #cbf1f5;
-  height: 300vh;
+}
+
+.all-intro {
+  background-image: url(../images/13.jpg);
+  background-size: cover;
 }
 
 .navbar {
@@ -44,4 +48,19 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+.my-header {
+  height: 100vh;
+}
+
+.my-text-header p {
+  color: rgb(107, 107, 107);
+}
+
+.img-header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
