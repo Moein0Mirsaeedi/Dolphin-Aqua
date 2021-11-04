@@ -1,3 +1,15 @@
+@font-face {
+  font-family: VR;
+  src: url(../fonts/VR.eot), url(../fonts/VR.ttf), url(../fonts/VR.woff),
+    url(../fonts/VR.woff2);
+}
+
+@font-face {
+  font-family: VM;
+  src: url(../fonts/VM.eot), url(../fonts/VM.ttf), url(../fonts/VM.woff),
+    url(../fonts/VM.woff2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +26,10 @@ body {
 
 .navbar {
   border-radius: 4px;
+}
+
+.navbar-nav {
+  font-family: VR;
 }
 
 .navbar-brand img {
@@ -54,8 +70,17 @@ a:hover {
   height: 100vh;
 }
 
+.my-text-header h1 {
+  font-family: VM;
+}
+
 .my-text-header p {
   color: rgb(107, 107, 107);
+  font-family: VR;
+}
+
+.my-text-header button {
+  font-family: VR;
 }
 
 .img-header {
