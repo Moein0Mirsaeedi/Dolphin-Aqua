@@ -5,6 +5,7 @@
 
 body {
   background-color: #cbf1f5;
+  height: 300vh;
 }
 
 .navbar {
@@ -16,7 +17,7 @@ body {
 }
 
 .my-item-menu {
-    width: max-content;
+  width: max-content;
 }
 
 .my-item-menu:hover {
@@ -37,10 +38,10 @@ body {
   cursor: pointer;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-a:hover{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
