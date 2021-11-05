@@ -57,15 +57,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #3F72AF;
+  color: #3f72af;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #3F72AF;
+  color: #3f72af;
 }
 
-.my-logo a h3{
-  color: #3F72AF;
+.my-logo a h3 {
+  color: #3f72af;
 }
 
 .my-logo a {
@@ -89,12 +89,12 @@ a:hover {
   font-family: mgz;
 }
 
-.my-text-header h3 {
+.my-text-header h4 {
   font-family: Y;
 }
 
 .my-text-header p {
-  color: #112D4E;
+  color: #112d4e;
   font-family: VR;
 }
 
@@ -102,13 +102,49 @@ a:hover {
   font-family: VR;
 }
 
-.img-header {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  z-index: 100;
+.my-text-header div button {
+  color: #3f72af;
+  background-color: #dbe2ef;
 }
+
+.my-text-header div .ml-1 {
+  color: #dbe2ef;
+  background-color: #3f72af;
+}
+
+.w3t{
+  position: relative;
+  top: -400px;
+  left: 30px;
+  z-index: 1;
+}
+
+.w3t{
+z-index: 300;
+}
+
+.item-header div div h1{
+  font-size: 60px;
+}
+
+.img-header img{
+  position: relative;
+  top: -10px;
+}
+
+
+@media screen and (min-width:720px) {
+  .my-text-header{
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .my-text-header{
+    padding-right: 200px;
+  }
+}
+
 
 .carousel-caption h3,
 .carousel-caption p {
@@ -146,14 +182,4 @@ a:hover {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-}
-
-.my-text-header div button{
-  color: #3F72AF;
-  background-color: #DBE2EF;
-}
-
-.my-text-header div .mr-1{
-  color: #DBE2EF;
-  background-color: #3F72AF;
 }
