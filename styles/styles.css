@@ -1,0 +1,82 @@
+@font-face {
+  font-family: VR;
+  src: url(../fonts/VR.eot), url(../fonts/VR.ttf), url(../fonts/VR.woff),
+    url(../fonts/VR.woff2);
+}
+
+@font-face {
+  font-family: VM;
+  src: url(../fonts/VM.woff2), url(../fonts/VM.woff), url(../fonts/VM.ttf),
+    url(../fonts/VM.eot);
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+nav {
+  font-family: VM;
+  padding: 0;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+li {
+  list-style: none;
+}
+
+.my-dropdown1 {
+  position: absolute;
+  margin-top: 9px;
+  display: none;
+  background-color: rgb(241, 241, 241);
+}
+
+nav ul li:hover > div {
+  display: block;
+}
+
+nav ul li {
+  cursor: pointer;
+  transition: all 200ms;
+  width: max-content;
+}
+
+.nav-item:hover {
+  border-bottom: #3490de 5px solid;
+}
+
+.my-hover-1:hover {
+  border-bottom: #ff2e63 5px solid;
+}
+
+.my-hover-2:hover {
+  border-bottom: #1fab89 5px solid;
+}
+
+.my-hover-3:hover {
+  border-bottom: #ffd460 5px solid;
+}
+
+.my-hover-4:hover {
+  border-bottom: #6a2c70 5px solid;
+}
+
+.nav-item:hover > .nav-link {
+  color: #3490de;
+  padding-bottom: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3490de;
+}
+
+.my-dropdown1 ul {
+  width: 100%;
+}
+
+.my-dropdown1 ul li {
+  padding: 10px 30px;
+}
