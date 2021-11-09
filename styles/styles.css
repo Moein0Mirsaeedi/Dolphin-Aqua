@@ -173,3 +173,12 @@ nav ul li:hover > .my-dropdown2 {
   display: block;
 }
 }
+
+@media screen and (max-width:950px){
+  nav ul li a{
+    font-size: 14px;
+  }
+  .navbar-brand img {
+  width: 100px;
+}
+}
