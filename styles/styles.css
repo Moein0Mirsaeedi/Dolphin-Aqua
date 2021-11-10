@@ -21,7 +21,7 @@ nav {
 }
 
 .navbar-brand img {
-  width: 120px;
+  width: 80px;
 }
 
 li {
@@ -179,6 +179,6 @@ nav ul li:hover > .my-dropdown2 {
     font-size: 14px;
   }
   .navbar-brand img {
-  width: 100px;
+  width: 70px;
 }
 }
