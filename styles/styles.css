@@ -162,23 +162,39 @@ a:hover {
   text-decoration: none;
 }
 
-
-
-@media screen and (min-width:768px) {
-    .div-right{
+@media screen and (min-width: 768px) {
+  .div-right {
     right: -200px;
+  }
+
+  nav ul li:hover > .my-dropdown2 {
+    display: block;
+  }
 }
 
-nav ul li:hover > .my-dropdown2 {
-  display: block;
-}
-}
-
-@media screen and (max-width:950px){
-  nav ul li a{
+@media screen and (max-width: 950px) {
+  nav ul li a {
     font-size: 14px;
   }
   .navbar-brand img {
-  width: 70px;
+    width: 70px;
+  }
 }
+
+.content-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.text-welcome {
+  font-family: VM;
+  margin: 0 auto;
+  color: #3490de;
+}
+
+.text-info-we{
+  margin-top: 150px;
 }
