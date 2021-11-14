@@ -195,6 +195,76 @@ a:hover {
   color: #3490de;
 }
 
-.text-info-we{
+.text-info-we {
   margin-top: 150px;
+}
+
+.text-info-we .row .col div {
+  cursor: pointer;
+}
+
+.info-1-we h3 {
+  padding-bottom: 10px;
+}
+
+.info-1-we h3::after {
+  content: "";
+  width: 48px;
+  height: 5px;
+  background-color: #3490de;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  transition: all 400ms;
+}
+.info-1-we h3::before {
+  content: "";
+  width: 48px;
+  height: 5px;
+  background-color: #3490de;
+  position: absolute;
+  top: 60px;
+  right: 32px;
+  transition: all 400ms;
+}
+
+.info-1-we:hover > h3::after {
+  transform: rotate(180deg);
+}
+
+.info-1-we:hover > h3::before {
+  transform: rotate(-180deg);
+}
+
+.info-2-we h3 {
+  padding-bottom: 10px;
+}
+
+.info-2-we h3::after {
+  content: "";
+  width: 54px;
+  height: 5px;
+  background-color: #ff2e63;
+  position: absolute;
+  top: 60px;
+  right: 84px;
+  transition: all 400ms;
+}
+.info-2-we h3::before {
+  content: "";
+  width: 54px;
+  height: 5px;
+  background-color: #ff2e63;
+  position: absolute;
+  top: 60px;
+  right: 32px;
+  transition: all 400ms;
+}
+
+.info-2-we:hover > h3::after {
+  transform: rotate(180deg);
+}
+
+.info-2-we:hover > h3::before {
+  transform: rotate(-180deg);
 }
