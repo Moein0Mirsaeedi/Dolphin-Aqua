@@ -181,90 +181,80 @@ a:hover {
   }
 }
 
-.content-one {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 30px;
-  width: 100%;
-}
-
 .text-welcome {
   font-family: VM;
-  margin: 0 auto;
-  color: #3490de;
-}
-
-.text-info-we {
-  margin-top: 150px;
-}
-
-.text-info-we .row .col div {
+  width: 100%;
+  padding-top: 50px;
   cursor: pointer;
 }
 
-.info-1-we h3 {
+
+.all-aqua-info{
+  border: #348fde00 2px solid;
+  padding: 10px;
+  margin-top: 80px;
+  border-radius: 6px;
+}
+
+.text-welcome h1 {
+  color: #3490de;
+  text-align: center;
+}
+
+.text-aqua-info {
+  text-align: right;
+  cursor: pointer;
+  position: relative;
+}
+
+.text-aqua-info h4 {
   padding-bottom: 10px;
 }
 
-.info-1-we h3::after {
+.text-aqua-info h4::after {
   content: "";
-  width: 48px;
+  width: 97px;
   height: 5px;
   background-color: #3490de;
   position: absolute;
-  top: 60px;
-  right: 80px;
+  top: 35px;
+  right: 16px;
   transition: all 400ms;
 }
-.info-1-we h3::before {
+.text-aqua-info h4::before {
   content: "";
-  width: 48px;
+  width: 97px;
   height: 5px;
   background-color: #3490de;
   position: absolute;
-  top: 60px;
-  right: 32px;
+  top: 35px;
+  right: 112px;
   transition: all 400ms;
 }
 
-.info-1-we:hover > h3::after {
+.text-aqua-info p {
+  font-family: VR;
+  margin-top: 40px;
+}
+
+.text-aqua-info:hover > h4::after {
   transform: rotate(180deg);
 }
 
-.info-1-we:hover > h3::before {
+
+.text-aqua-info:hover > h4::before {
   transform: rotate(-180deg);
 }
 
-.info-2-we h3 {
-  padding-bottom: 10px;
+.all-aqua-info:hover{
+  border: #3490de 2px solid;
 }
 
-.info-2-we h3::after {
-  content: "";
-  width: 54px;
-  height: 5px;
-  background-color: #ff2e63;
-  position: absolute;
-  top: 60px;
-  right: 84px;
-  transition: all 400ms;
-}
-.info-2-we h3::before {
-  content: "";
-  width: 54px;
-  height: 5px;
-  background-color: #ff2e63;
-  position: absolute;
-  top: 60px;
-  right: 32px;
-  transition: all 400ms;
+.img-aqua-info{
+  display: flex;
+  align-items: flex-end;
 }
 
-.info-2-we:hover > h3::after {
-  transform: rotate(180deg);
-}
-
-.info-2-we:hover > h3::before {
-  transform: rotate(-180deg);
+.img-aqua-info img{
+  width: 100%;
 }
