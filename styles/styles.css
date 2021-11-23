@@ -249,6 +249,17 @@ a:hover {
   align-items: flex-end;
 }
 
+.text-aqua-info a {
+  color: #3490de;
+  font-size: 17px;
+  transition: 300ms;
+}
+
+.text-aqua-info a:hover {
+  color: #0026ff;
+  font-size: 17px;
+}
+
 .img-aqua-info img {
   width: 100%;
   height: 300px;
