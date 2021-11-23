@@ -188,12 +188,9 @@ a:hover {
   cursor: pointer;
 }
 
-
-.all-aqua-info{
-  border: #348fde00 2px solid;
+.all-aqua-info {
   padding: 10px;
   margin-top: 80px;
-  border-radius: 6px;
 }
 
 .text-welcome h1 {
@@ -209,6 +206,8 @@ a:hover {
 
 .text-aqua-info h4 {
   padding-bottom: 10px;
+  width: max-content;
+  overflow: hidden;
 }
 
 .text-aqua-info h4::after {
@@ -241,20 +240,41 @@ a:hover {
   transform: rotate(180deg);
 }
 
-
 .text-aqua-info:hover > h4::before {
   transform: rotate(-180deg);
 }
 
-.all-aqua-info:hover{
-  border: #3490de 2px solid;
-}
-
-.img-aqua-info{
+.img-aqua-info {
   display: flex;
   align-items: flex-end;
 }
 
-.img-aqua-info img{
+.img-aqua-info img {
   width: 100%;
+  height: 300px;
+  filter: opacity(90%);
+  transition: 300ms;
+  cursor: pointer;
+  border: #348fde00 2px solid;
+  border-radius: 7px;
+}
+
+.img-aqua-info img:hover {
+  filter: opacity(100%);
+  border-radius: 20px;
+  border: #3490de 2px solid;
+}
+
+@media screen and (max-width: 991px) {
+  .img-aqua-info img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .img-aqua-info img {
+    width: 100%;
+    height: 200px;
+  }
 }
