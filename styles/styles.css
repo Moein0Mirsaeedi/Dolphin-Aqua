@@ -11,8 +11,8 @@
 }
 
 body {
-  background-color: #55a3e713;
-  height: 2000px;
+  background-color: #72b2e913;
+  height: 4000px;
 }
 
 nav {
@@ -296,6 +296,8 @@ a:hover {
   margin-top: 150px;
   border: #3490de 3px solid;
   border-radius: 10px;
+  margin-bottom: 150px;
+  cursor: pointer;
 }
 
 .aqua-dolphin div:nth-child(1) h3,
@@ -316,4 +318,18 @@ a:hover {
   height: 3px;
   background-color: #3490de;
   border-radius: 100px;
+}
+
+.aqua-dolphin div img{
+  border-radius: 10px;
+  opacity: 90%;
+  transition: 400ms;
+  border: #348fde00 2px solid;
+}
+
+.aqua-dolphin div img:hover{
+  opacity: 100%;
+  border-radius: 20px;
+  border: #348fde 2px solid;
+
 }
