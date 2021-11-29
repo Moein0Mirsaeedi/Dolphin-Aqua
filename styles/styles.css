@@ -295,7 +295,7 @@ a:hover {
 .aqua-dolphin {
   border-radius: 10px;
   cursor: pointer;
-  background-color: #ebf6ff;
+  background-color: #f4faff;
 }
 
 .aqua-dolphin-back {
@@ -313,7 +313,6 @@ a:hover {
   margin-top: 100px;
   border-radius: 10px;
   padding: 10px 25px;
-  
 }
 
 .aqua-dolphin div:nth-child(1) h3,
