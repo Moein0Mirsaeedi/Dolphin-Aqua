@@ -293,11 +293,27 @@ a:hover {
 }
 
 .aqua-dolphin {
-  margin-top: 150px;
-  border: #3490de 3px solid;
   border-radius: 10px;
-  margin-bottom: 150px;
   cursor: pointer;
+  background-color: #ebf6ff;
+}
+
+.aqua-dolphin-back {
+  background: rgb(255, 46, 99);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 46, 99, 1) 0%,
+    rgba(52, 144, 222, 1) 20%,
+    rgba(255, 46, 99, 1) 40%,
+    rgba(52, 144, 222, 1) 60%,
+    rgba(255, 46, 99, 1) 80%,
+    rgba(52, 144, 222, 1) 100%
+  );
+  margin-bottom: 150px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  
 }
 
 .aqua-dolphin div:nth-child(1) h3,
@@ -320,16 +336,15 @@ a:hover {
   border-radius: 100px;
 }
 
-.aqua-dolphin div img{
+.aqua-dolphin div img {
   border-radius: 10px;
   opacity: 90%;
   transition: 400ms;
   border: #348fde00 2px solid;
 }
 
-.aqua-dolphin div img:hover{
+.aqua-dolphin div img:hover {
   opacity: 100%;
   border-radius: 20px;
   border: #348fde 2px solid;
-
 }
