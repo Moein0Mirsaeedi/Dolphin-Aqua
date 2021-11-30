@@ -12,7 +12,7 @@
 
 body {
   background-color: #72b2e913;
-  height: 4000px;
+  padding-bottom: 100vh;
 }
 
 nav {
@@ -302,12 +302,12 @@ a:hover {
   background: rgb(255, 46, 99);
   background: linear-gradient(
     45deg,
-    rgba(255, 46, 99, 1) 0%,
-    rgba(52, 144, 222, 1) 20%,
-    rgba(255, 46, 99, 1) 40%,
-    rgba(52, 144, 222, 1) 60%,
-    rgba(255, 46, 99, 1) 80%,
-    rgba(52, 144, 222, 1) 100%
+    rgb(0, 72, 136) 0%,
+    rgb(76, 155, 224) 20%,
+    rgba(0, 72, 136) 40%,
+    rgba(76, 155, 224) 60%,
+    rgba(0, 72, 136) 80%,
+    rgba(76, 155, 224) 100%
   );
   margin-bottom: 150px;
   margin-top: 100px;
